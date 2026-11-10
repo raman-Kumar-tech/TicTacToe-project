@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#container{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    padding:20px ;
+    justify-content: space-evenly;
+}
+#game{
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.769);
+    padding: 10px;
+}
+#parent{
+    height: auto;
+    width: auto;
+    display: grid;
+    gap: 3px;
+/* 3 column bna ge sari width consume kre ge parent ki */
+    grid-template-columns: repeat(3,1fr); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+}
+
+.same{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5%;
+    height: 100px;
+    /* jo boxes ke andhar content ava vo ceneter me ava  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+#buttonelement{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: bolder;
+
+}
+#last{
+    margin-top: 5px;
+    text-align: center;
+}
+#pic1,#pic3{
+    height: 130px;
+    width: 130px;
+}
+#firstbox,#thirdbox{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 150px;
+   
+}
+#button1>button{
+    width: 100px;
+}
+
+#button3>button{
+    width: 100px;
+}
